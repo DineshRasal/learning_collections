@@ -1,0 +1,21 @@
+class Student1{
+
+
+	public static void main(String args[]){
+
+
+		ArrayList l1=new ArrayList();
+		l1.add(101);
+		l1.add("Rushi");
+		l1.add("Male");
+		l1.add("pune");
+		
+		System.out.println(l1);
+		
+		Iterator itr=l1.Iterator();
+		while(itr.hasNext()){
+		
+			System.out.println(itr.next());
+		}
+	}
+}
