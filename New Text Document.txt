@@ -4,18 +4,13 @@ class Student1{
 	public static void main(String args[]){
 
 
-		ArrayList l1=new ArrayList();
-		l1.add(101);
+		LinkedList<String> l1=new LinkedList<String>();
+		l1.add("Anup");
 		l1.add("Rushi");
 		l1.add("Male");
 		l1.add("pune");
 		
-		System.out.println(l1);
+		System.out.println("LinkedList :"+l1);
 		
-		Iterator itr=l1.Iterator();
-		while(itr.hasNext()){
-		
-			System.out.println(itr.next());
-		}
-	}
+			}
 }
