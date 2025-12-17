@@ -40,9 +40,35 @@ class ArrayListDemo
 		System.out.println("merge List:\n"+l1);
 		l1.removeAll(l2);
 		System.out.println("Newly added removing:\n"+l1);
-
 		l2.clear();
 		System.out.println("Delete:"+l2);
+
+		ArrayList l3=new ArrayList();
+
+		l3.add(10);
+		l3.add(60);
+		l3.add(30);
+		l3.add(40);
+		l3.add(50);
+		l3.add(88);
+
+		System.out.println("L3:"+l3);
+		System.out.println("Index of 60 in L3:"+l3.indexOf(60));
+		System.out.println("Is This Element I present In L3:"+l3.contains(10));
+		System.out.println("if Element is not present In L3:"+l3.contains(100));
+		System.out.println("Check this List is Empty or Not:"+l3.isEmpty());
+		System.out.println("Last Element Index:"+l3.lastIndexOf(40));
+		Object[] arr = l3.toArray();
+
+       		 for (Object o : arr) {
+           	 System.out.print(o + " ");
+        	}
+		
+		List<Integer> sub=l3.subList(0,2);
+		System.out.println("Sublist:"+sub);
+		
+		System.out.println("Size Of The List:"+l3.size());
+
 		
 	}
 
