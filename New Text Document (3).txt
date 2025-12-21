@@ -1,0 +1,23 @@
+import java.util.*;
+
+class TreeTest{
+
+	public static void main(String args[])
+{
+
+	TreeSet<Integer> t1=new TreeSet<Integer>();
+
+	t1.add(10);
+	t1.add(20);
+	t1.add(30);
+	t1.add(40);
+	t1.add(50);
+
+	System.out.println("TreeSet"+t1);
+	t1.pollFirst()
+	t1.pollLAst();
+	System.out.println("TreeSet After Poll"+t1);
+
+}
+
+}
