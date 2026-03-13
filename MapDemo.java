@@ -1,0 +1,18 @@
+import java.util.*;
+
+
+Class MapDemo
+{
+	public static void main(String args[])
+{
+	HashMap m1=new HashMap();
+	m1.put(1,"Ram");
+	m1.put(2,"Jay");
+	m1.put(3,"Viru");
+	m1.put(4,"Ganesh");
+	m1.put(5,"Deva");
+		
+	System.out.println(m1);
+}
+
+}
